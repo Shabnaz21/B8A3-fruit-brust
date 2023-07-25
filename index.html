@@ -3,24 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>B8A3 Fruit Brust | </title>
+    <title> Fruit Burst | Exotic tastes at your doorstep </title>
     <!-- favicon -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/7278846ccf.js" crossorigin="anonymous"></script>
     <!-- font -->
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
     <!-- DaisyUi -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- font custome style -->
+    <!-- font custom style -->
     <style>
-        
+        .lato{
+            font-family: 'Lato', sans-serif;
+        }
     </style>
 </head>
-<body>
-    <header>
-
+<body class="lato">
+    <header class="mx-5 lg:mx-60 my-12">
+        <!-- Navbar -->
+        <nav class="lg:bg-[#F85559] rounded-full lg:text-white">
+            <div class="navbar flex flex-row-reverse lg:flex-row justify-between">
+                <div class="space-x-10">
+                  <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </label>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52">
+                        <li><a>Home</a></li>
+                        <li><a>About Us</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>All Fruits</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="flex flex-row lg:flex-row-reverse lg:-ml-40 gap-x-32">
+                    <div class="flex items-center gap-4">
+                        <img src="images/logo.png" alt="">
+                        <a class="font-bold  text-xl lg:text-4xl">Fruit Burst</a>
+                      </div>
+                    <div class=" hidden -ml-20 lg:flex">
+                      <ul class="menu menu-horizontal px-1">
+                        <li><a>Home</a></li>
+                        <li><a>About Us</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>All Fruits</a></li>
+                      </ul>
+                    </div>
+                </div>
+                <div class="lg:mr-10 hidden lg:flex">
+                    <a class="btn w-[400px] rounded-full lowercase justify-between items-center">Search here <i class="fa-solid fa-magnifying-glass"></i></a>
+                  </div>
+              </div>
+        </nav>
     </header>
     <main>
 
