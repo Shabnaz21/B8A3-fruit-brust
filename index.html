@@ -23,7 +23,7 @@
     </style>
 </head>
 <body class="lato">
-    <header class="mx-5 lg:mx-60 my-12">
+    <header class="container mx-auto px-8 my-12">
         <!-- Navbar -->
         <nav class="lg:bg-[#F85559] rounded-full lg:text-white">
             <div class="navbar flex flex-row-reverse lg:flex-row justify-between">
@@ -46,7 +46,7 @@
                         <a class="font-bold  text-xl lg:text-4xl">Fruit Burst</a>
                       </div>
                     <div class=" hidden -ml-20 lg:flex">
-                      <ul class="menu menu-horizontal px-1">
+                      <ul class="menu menu-horizontal px-1 font-medium text-lg">
                         <li><a>Home</a></li>
                         <li><a>About Us</a></li>
                         <li><a>Shop</a></li>
@@ -54,13 +54,13 @@
                       </ul>
                     </div>
                 </div>
-                <div class="lg:mr-10 hidden lg:flex">
-                    <a class="btn w-[400px] rounded-full normal-case justify-between items-center">Search here <i class="fa-solid fa-magnifying-glass"></i></a>
+                <div class="lg:mr-6 hidden lg:flex">
+                    <a class="btn w-[400px] rounded-full capitalize justify-between items-center">Search here <i class="fa-solid fa-magnifying-glass"></i></a>
                   </div>
               </div>
         </nav>
     </header>
-    <main class="mx-5 lg:mx-60 my-30">
+    <main class="container mx-auto px-8">
         <!-- slider -->
         <section>
             <div class="carousel w-full lg:h-[600px] bg-bike_primary_bg">
@@ -308,7 +308,81 @@
             </button>
             </div>
         </section>
-        
+        <!-- Meet the team section -->
+        <section class="my-6 lg:my-32 space-y-12">
+          <div class="hero lg:h-[700px] rounded-lg" style="background-image: url(images/team.png);">
+            <div class="hero-overlay bg-opacity-70 rounded-lg"></div>
+            <div class="hero-content text-center flex-col text-neutral-content">
+              <div class="lg:max-w-lg">
+                <h1 class="mb-5 mt-6 text-5xl font-bold">Meet the team section</h1>
+                <p class="mb-5">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+              </div>
+              <div class="grid grid-flow-row md:grid-cols-2 lg:grid-cols-4 ">
+                <!-- card -->
+              <div class="card ">
+                <figure class="px-10 pt-10">
+                  <img src="/images/member1.png" alt="Memer-1" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h4 class=" text-2xl font-bold">Awlad Hossain</h4>
+                  <p class="font-medium">Fruits Expert</p>
+                  <div class="text-[#F85559] space-x-3">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                  </div>
+                </div>
+              </div>
+              <!-- card 2-->
+              <div class="card ">
+                <figure class="px-10 pt-10">
+                  <img src="/images/member2.png" alt="Memer-1" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h4 class=" text-2xl font-bold">Safia Chowdhury</h4>
+                  <p class="font-medium">Fruits Expert</p>
+                  <div class="text-[#F85559] space-x-3">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                  </div>
+                </div>
+              </div>
+              <!-- card 3-->
+              <div class="card ">
+                <figure class="px-10 pt-10">
+                  <img src="/images/member3.png" alt="Memer-1" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h4 class=" text-2xl font-bold">Rokib Hossainn</h4>
+                  <p class="font-medium">Fruits Expert</p>
+                  <div class="text-[#F85559] space-x-3">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                  </div>
+                </div>
+              </div>
+              <!-- card 4-->
+              <div class="card">
+                <figure class="px-10 pt-10">
+                  <img src="/images/member4.png" alt="Memer-1" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h4 class=" text-2xl font-bold">Chaity</h4>
+                  <p class="font-medium">Fruits Expert</p>
+                  <div class="text-[#F85559] space-x-3">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+            
+          </div>
+        </section>
     </main>
     <footer>
 
